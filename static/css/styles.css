@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Righteous&family=Signika+Negative:wght@400;500&display=swap');
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .typing-animation {
     overflow: hidden;
     white-space: nowrap;
     border-right: 0.15em solid black;
-    font-size: 50px;
+    font-size: 4.5rem;
     letter-spacing: 0.15em;
     animation: typing 5s alternate infinite steps(20) , blink 0.50s step-end  ;
 
@@ -12,7 +17,7 @@
         width: 0%;
     }
     to {
-        width: 60%;
+        width: 100%;
     }
 }
 @keyframes blink {
@@ -26,3 +31,25 @@
     
 }
 
+.lead{
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.btn{
+    font-family: 'Righteous', cursive;
+}
+
+.social-icons{
+    color: #cccc;
+    margin: 0 20px;
+    font-size: 2rem;
+}
+
+.social-icons:hover{
+    color: #ffffff;
+}
+
+/* .nav-link.active {
+    font-weight: bold;
+    font-size: 1.2em;
+} */
