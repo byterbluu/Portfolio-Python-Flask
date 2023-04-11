@@ -2,30 +2,30 @@
     <div class="container">
         <div class="row align-items-center g-lg-5 py-5">
             <div class="col-lg-6 text-center text-lg-start">
-                <h2 class="display-4 fw-bold lh-1 mb-3">!Hablemos!</h2>
+                <h2 class="display-4 fw-bold lh-1 mb-3">!Can We Talk!</h2>
                 <p class="col-lg-10 fs-4">
-                    Si quieres Trabajar conmigo o simplemente quieres enviar alguna recomendacion tambien son bienvenidas! 
+                    If you want to work with me or just want to send any recommendations are also welcome!
                 </p>
             </div>
             <div class="col-md-10 max-auto col-lg-6">
                 <form class="p-4 p-md-5 border rounded-3 bg-white" method="POST" action="{{url_for('send_email')}}">
                     <div class="mb-3">
-                        <label for="name" class="form-label">Nombre Completo</label>
+                        <label for="name" class="form-label">Full Name</label>
                         <input type="text" class="form-control" id="name" name="name" required>
                     </div> 
                     <div class="mb-3">
-                        <label for="subject" class="form-label">Asunto</label>
+                        <label for="subject" class="form-label">Subject</label>
                         <input type="text" class="form-control" id="subject" name="subject" required>
                     </div>
                     <div class="mb-3">
-                        <label for="email" class="form-label">Correo Electronico</label>
+                        <label for="email" class="form-label">Email</label>
                         <input type="email" class="form-control" id="email" name="email" required>
                     </div> 
                     <div class="mb-3">
-                        <label for="message" class="form-label">Mensaje</label>
+                        <label for="message" class="form-label">Message</label>
                         <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar!
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send!
                     </button>    
                 </form>
 
